@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_exercise"
+          android:title="운동 일정관리"/>
+    <item android:id="@+id/main_safeMsg"
+          android:title="문자전송 관리"/>
+    <item android:id="@+id/main_location"
+          android:title="활동 모니터링"/>
+</menu>

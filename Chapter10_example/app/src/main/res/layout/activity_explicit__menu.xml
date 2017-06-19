@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_explicit__menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="c5113228.ce.kmu.chapter10_example.Explicit_Menu">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:text="Introduction"
+            android:layout_width="192dip"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="100dp"
+            android:id="@+id/exbutton1"
+            android:gravity="center"
+            android:onClick="mylistener1"
+            android:background="#ff0000"/>
+
+        <Button
+            android:text="settings"
+            android:layout_width="192dip"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="150dp"
+            android:id="@+id/exbutton2"
+            android:gravity="center"
+            android:onClick="mylistener2"
+            android:background="#ff0000" />
+
+        <Button
+            android:text="start"
+            android:layout_width="192dip"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="200dp"
+            android:id="@+id/exbutton3"
+            android:gravity="center"
+            android:onClick="mylistener3"
+            android:background="#ff0000" />
+    </AbsoluteLayout>
+
+</FrameLayout>
